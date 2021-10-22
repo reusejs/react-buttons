@@ -1,6 +1,8 @@
-# React Component Template
+[![Chromatic](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml)
 
-This is a sample repository which can be used to develop new component libraries and push to NPM. Tailwind is integrated and purge is configured. So, when you make a final build, CSS would be send along with package.
+[![NPM Package](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml)
+
+# React Buttons
 
 ### Where to write components?
 
