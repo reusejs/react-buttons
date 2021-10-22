@@ -1,5 +1,5 @@
 import React from 'react';
-
+import LoaderIcon from "../loaderIcon";
 import Base from './index';
 
 export default {
@@ -46,7 +46,7 @@ export default {
         },
         loaderIcon: {
             description: "A react component to override default loader icon",
-            defaultValue: null,
+            defaultValue: <LoaderIcon />,
             table: null,
             control: {
                 type: null,
@@ -139,7 +139,7 @@ export const BusyButton = Template.bind({});
 
 BusyButton.args = {
     busy: true,
-    busyText: "I am Busy..",
+    busyText: "I am Busy.."
 };
 
 export const Disabled = Template.bind({});
