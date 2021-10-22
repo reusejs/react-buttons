@@ -22,7 +22,6 @@ There are two ways you can develop components.
 ### Storybook
 
 - Run: `yarn storybook` which will run the storybook in your localhost
-- Open `src/Box/Box.stories.jsx` to find an example of Storybook
 - When you write your own component, also write a `.stories.jsx` and storybook would pick it up
 
 ### Another ReactJS App
