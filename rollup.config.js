@@ -7,6 +7,7 @@ export default {
     "index.js",
     "src/Base/index.js",
     "src/BlueButton/index.js",
+    "src/BlueOutlineButton/index.js",
     "src/GrayButton/index.js",
   ],
   output: [
