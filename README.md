@@ -4,6 +4,7 @@
 [![MIT License][license-image]][license-url]
 [![Storybook](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml)
 [![NPM Publish](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml)
+[![View Storybook]https://master--617258d6729860003a3d6e10.chromatic.com](https://master--617258d6729860003a3d6e10.chromatic.com)
 
 # React Buttons
 
