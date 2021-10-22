@@ -1,4 +1,5 @@
-import Button from "./src/Button";
-import Box from "./src/Box";
+import BaseButton from "./src/Base";
+import BlueButton from "./src/BlueButton";
+import GrayButton from "./src/GrayButton";
 
-export { Button, Box };
+export { BaseButton, BlueButton, GrayButton };
