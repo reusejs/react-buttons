@@ -24,7 +24,7 @@ const Button = function Button({
 
   const colors =
     props.colors ||
-    "bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-50";
+    "bg-blue-500 hover:bg-blue-700 text-white disabled:opacity-50";
 
   const padding = props.padding || "px-4 py-2";
 

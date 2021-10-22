@@ -23,7 +23,8 @@
     "build": "NODE_ENV=production rollup -c",
     "serve": "NODE_ENV=production rollup -c -w",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -43,6 +44,7 @@
     "@storybook/react": "^6.3.12",
     "autoprefixer": "^10.3.7",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.0.4",
     "postcss": "^8.3.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

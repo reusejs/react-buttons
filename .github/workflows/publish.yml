@@ -14,5 +14,7 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: npm publish --access public
+      - run: npm run chromatic
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
