@@ -1,6 +1,6 @@
 
 [![View Storybook][view-storybook-image]][view-storybook-url]
-[![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/VUa9SHvvDb)
+[![Discord](https://badgen.net/badge/icon/discord?icon=discord&label=Join)](https://discord.gg/VUa9SHvvDb)
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-downloads-url]
 [![MIT License][license-image]][license-url]
@@ -68,5 +68,5 @@ react-button is freely distributable under the terms of the [MIT license][licens
 [npm-downloads-image]: https://img.shields.io/npm/dm/@reusejs/react-buttons.svg?style=flat
 [npm-downloads-url]: https://npmcharts.com/compare/@reusejs/react-buttons?minimal=true
 
-[view-storybook-image]: https://img.shields.io/badge/View%20Storybook-1f425f.svg
+[view-storybook-image]: https://img.shields.io/badge/View-Storybook-F59E0B.svg
 [view-storybook-url]: https://master--617258d6729860003a3d6e10.chromatic.com
