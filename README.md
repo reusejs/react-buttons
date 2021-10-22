@@ -4,6 +4,8 @@
 
 # React Buttons
 
+View Storybook at: https://master--617258d6729860003a3d6e10.chromatic.com
+
 ### Where to write components?
 
 1. There is a `src` folder where you can write your components
