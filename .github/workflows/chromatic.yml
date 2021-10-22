@@ -1,18 +1,17 @@
-name: Node.js Package
-on:
-  release:
-    types: [created]
+name: Chromatic
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+            fetch-depth: 0
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
           registry-url: "https://registry.npmjs.org"
       - run: yarn install
-      - run: yarn build
-      - run: npm publish --access public
+      - run: npm run chromatic
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
