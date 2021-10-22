@@ -63,7 +63,7 @@ react-button is freely distributable under the terms of the [MIT license][licens
 [license-url]: LICENSE
 
 [npm-url]: https://npmjs.org/package/react-buttons
-[npm-version-image]: https://img.shields.io/npm/v/moment.svg?style=flat
+[npm-version-image]: https://img.shields.io/npm/v/react-buttons.svg?style=flat
 
 [npm-downloads-image]: https://img.shields.io/npm/dm/react-buttons.svg?style=flat
 [npm-downloads-url]: https://npmcharts.com/compare/react-buttons?minimal=true
