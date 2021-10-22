@@ -1,0 +1,53 @@
+{
+  "name": "@reusejs/react-component-template",
+  "version": "1.0.17",
+  "description": "A library which works as a base to build react components and push to npm",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reusejs/react-component-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reusejs/react-component-template/issues"
+  },
+  "homepage": "https://github.com/reusejs/react-component-template",
+  "author": "Rajiv Seelam",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "bump": "npm version patch",
+    "build": "NODE_ENV=production rollup -c",
+    "serve": "NODE_ENV=production rollup -c -w",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@storybook/addon-a11y": "^6.3.12",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.3.12",
+    "autoprefixer": "^10.3.7",
+    "babel-loader": "^8.2.3",
+    "postcss": "^8.3.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-postcss": "^4.0.1",
+    "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {}
+}
