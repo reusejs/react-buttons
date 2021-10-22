@@ -4,8 +4,8 @@
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-downloads-url]
 [![MIT License][license-image]][license-url]
-[![Storybook](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml)
-[![NPM Publish](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml)
+[![Storybook][storybook-action-image]][storybook-action-url]
+[![NPM Publish][npm-publish-action-image]][npm-publish-action-url]
 
 # React Buttons
 
@@ -71,6 +71,11 @@ react-button is freely distributable under the terms of the [MIT license][licens
 [view-storybook-image]: https://img.shields.io/badge/View-Storybook-F59E0B.svg
 [view-storybook-url]: https://master--617258d6729860003a3d6e10.chromatic.com
 
-
 [join-discord-image]: https://img.shields.io/badge/Join-Discord-7389D8.svg
 [join-discord-url]: https://discord.gg/VUa9SHvvDb
+
+[storybook-action-image]: https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml/badge.svg
+[storybook-action-url]: https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml
+
+[npm-publish-action-image]: https://github.com/reusejs/react-buttons/actions/workflows/publish.yml/badge.svg
+[npm-publish-action-url]: https://github.com/reusejs/react-buttons/actions/workflows/publish.yml
