@@ -18,6 +18,7 @@
   "license": "MIT",
   "scripts": {
     "prepublishOnly": "npm run build",
+    "release": "gh release create",
     "bump": "npm version patch",
     "build": "NODE_ENV=production rollup -c",
     "serve": "NODE_ENV=production rollup -c -w",
