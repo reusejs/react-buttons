@@ -1,6 +1,6 @@
 
 [![View Storybook][view-storybook-image]][view-storybook-url]
-[![Discord](https://badgen.net/badge/icon/discord?icon=discord&label=Join)](https://discord.gg/VUa9SHvvDb)
+[![Join Discord][join-discord-image]][join-discord-url]
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-downloads-url]
 [![MIT License][license-image]][license-url]
@@ -70,3 +70,7 @@ react-button is freely distributable under the terms of the [MIT license][licens
 
 [view-storybook-image]: https://img.shields.io/badge/View-Storybook-F59E0B.svg
 [view-storybook-url]: https://master--617258d6729860003a3d6e10.chromatic.com
+
+
+[join-discord-image]: https://img.shields.io/badge/Join-Discord-7389D8.svg
+[join-discord-url]: https://discord.gg/VUa9SHvvDb
