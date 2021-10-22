@@ -2,10 +2,8 @@
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-downloads-url]
 [![MIT License][license-image]][license-url]
-
-[![Chromatic](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml)
-
-[![NPM Package](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml)
+[![Storybook](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml)
+[![NPM Publish](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml)
 
 # React Buttons
 
