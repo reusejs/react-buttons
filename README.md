@@ -1,4 +1,3 @@
-
 [![View Storybook][view-storybook-image]][view-storybook-url]
 [![Join Discord][join-discord-image]][join-discord-url]
 [![NPM version][npm-version-image]][npm-url]

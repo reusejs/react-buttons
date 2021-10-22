@@ -16,28 +16,37 @@ const Button = function Button({
   busyText = "Processing..",
   ...props
 }) {
-  const alignment =
-    props.alignment ||
+  const alignmentStyles =
+    props.alignmentStyles ||
     "flex justify-center items-center font-normal text-sm focus:outline-none rounded shadow-sm";
 
-  const font = props.font || "font-sans";
+  const fontStyles = props.fontStyles || "font-sans";
 
-  const colors =
-    props.colors ||
+  const colorStyles =
+    props.colorStyles ||
     "bg-blue-500 hover:bg-blue-700 text-white disabled:opacity-50";
 
-  const padding = props.padding || "px-4 py-2";
+  const paddingStyles = props.paddingStyles || "px-4 py-2";
 
-  const border = props.border || "border border-transparent";
+  const borderStyles = props.borderStyles || "border border-transparent";
 
-  const width = props.width || "";
+  const widthStyles = props.widthStyles || "";
+  const disabledStyles = props.disabledStyles || "disabled:opacity-50";
 
   return (
     <button
       type={type}
-      className={classNames(alignment, font, colors, padding, border, width)}
+      className={classNames(
+        disabledStyles,
+        alignmentStyles,
+        fontStyles,
+        colorStyles,
+        paddingStyles,
+        borderStyles,
+        widthStyles
+      )}
       onClick={onClick}
-      disabled={disable}
+      disabled={disable || busy}
     >
       {busy && (
         <>
