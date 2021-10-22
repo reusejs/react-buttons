@@ -1,8 +1,9 @@
 
+[![View Storybook][view-storybook-image]][view-storybook-url]
+[![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/VUa9SHvvDb)
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-downloads-url]
 [![MIT License][license-image]][license-url]
-[![View Storybook][view-storybook-image]][view-storybook-url]
 [![Storybook](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/chromatic.yml)
 [![NPM Publish](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml/badge.svg)](https://github.com/reusejs/react-buttons/actions/workflows/publish.yml)
 
