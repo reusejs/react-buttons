@@ -54,4 +54,16 @@ Basically:
 ## Releases
 
 Once your pull request is made, a release would be schedule which will push the library to npm to @reusejs org. You can't push to reusejs org.
- 
+
+ ## License
+
+react-button is freely distributable under the terms of the [MIT license][license-url].
+
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE
+
+[npm-url]: https://npmjs.org/package/react-buttons
+[npm-version-image]: https://img.shields.io/npm/v/moment.svg?style=flat
+
+[npm-downloads-image]: https://img.shields.io/npm/dm/react-buttons.svg?style=flat
+[npm-downloads-url]: https://npmcharts.com/compare/react-buttons?minimal=true
