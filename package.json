@@ -19,7 +19,7 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "release": "gh release create",
-    "bump": "npm version patch",
+    "bump": "npm version patch && ggp",
     "build": "NODE_ENV=production rollup -c",
     "serve": "NODE_ENV=production rollup -c -w",
     "storybook": "start-storybook -p 6006 -s public",
