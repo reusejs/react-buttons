@@ -1,6 +1,6 @@
 {
   "name": "@reusejs/react-buttons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library of reactjs buttons",
   "main": "build/index.js",
   "files": [
