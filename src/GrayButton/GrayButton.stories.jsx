@@ -14,6 +14,5 @@ export const Default = Template.bind({});
 Default.args = {
     busy: false,
     busyText: "Processing..",
-    type: 'button',
     disable: false,
 };
