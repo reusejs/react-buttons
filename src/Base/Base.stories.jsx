@@ -52,7 +52,7 @@ export default {
                 type: null,
             },
         },
-        alignmentStyles: {
+        alignmentClasses: {
             description: "List of tailwind classes to control alignment",
             table: {
                 type: 'string',
@@ -62,7 +62,7 @@ export default {
                 type: 'text',
             },
         },
-        fontStyles: {
+        fontClasses: {
             description: "List of tailwind classes to control font",
             table: {
                 type: 'string',
@@ -72,7 +72,7 @@ export default {
                 type: 'text',
             },
         },
-        colorStyles: {
+        colorClasses: {
             description: "List of tailwind classes to control color",
             table: {
                 type: 'string',
@@ -82,7 +82,7 @@ export default {
                 type: 'text',
             },
         },
-        paddingStyles: {
+        paddingClasses: {
             description: "List of tailwind classes to control padding",
             table: {
                 type: 'string',
@@ -92,7 +92,7 @@ export default {
                 type: 'text',
             },
         },
-        borderStyles: {
+        borderClasses: {
             description: "List of tailwind classes to control border",
             table: {
                 type: 'string',
@@ -102,7 +102,7 @@ export default {
                 type: 'text',
             },
         },
-        widthStyles: {
+        widthClasses: {
             description: "List of tailwind classes to control width",
             table: {
                 type: 'string',
@@ -112,7 +112,7 @@ export default {
                 type: 'text',
             },
         },
-        disabledStyles: {
+        disabledClasses: {
             description: "List of tailwind classes to control when button is disabled",
             table: {
                 type: 'string',

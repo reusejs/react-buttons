@@ -4,8 +4,8 @@ import Base from "../Base";
 export default (props) => {
   return (
     <Base
-      colorStyles="bg-blue-600 hover:bg-blue-700 text-white"
-      borderStyles="border border-transparent"
+      colorClasses="bg-blue-600 hover:bg-blue-700 text-white"
+      borderClasses="border border-transparent"
       {...props}
     />
   );
